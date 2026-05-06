@@ -11,7 +11,7 @@ CSS, JavaScript, React, MySQL, Node.js, MongoDB, and Express.js, growing into
 a full-stack developer. I enjoy creating clean, responsive, and practical digital
 experiences using modern technologies.`,
   email: "ezannebiu8@gmail.com",
-  avatarPath: "/src/assets/protofolie logo.jpeg",
+  avatarPath: "/images/protofolie logo.jpeg",
   linkedInUrl: "https://www.linkedin.com/in/ezan-nebija ", // PLACEHOLDER
   gitHubUrl: "https://github.com/EzanNebiu", // PLACEHOLDER
   cvPath: "/cv.pdf", // PLACEHOLDER

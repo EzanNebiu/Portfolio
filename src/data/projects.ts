@@ -33,9 +33,9 @@ export const projects: Project[] = [
     shortDescription: 'A modern social platform combining Discord\'s chat and Snapchat\'s ephemeral stories.',
     fullDescription: 'A modern social communication platform combining Discord\'s real-time chat and Snapchat\'s ephemeral story features. Built with React 18, TypeScript, Node.js, Express, Socket.IO, and MongoDB. Features include instant messaging with typing indicators, read receipts, and message reactions, comprehensive friend system with friend requests management, group chat creation and management, temporary stories that expire after 24 hours, WebRTC-powered voice & video calls with screen sharing capability, real-time presence system showing who\'s online, multiple theme options including dark mode, and mobile-first responsive design. The backend uses JWT authentication with access/refresh token rotation, Socket.IO for instant real-time events, and Mongoose ODM for MongoDB. State management is handled by Zustand with Axios interceptors for authentication.',
     technologies: ['React', 'TypeScript', 'Node.js', 'Express', 'Socket.io', 'MongoDB', 'JWT', 'WebRTC'],
-    mainImage: '/src/assets/coming-soon.png',
+    mainImage: '/images/coming-soon.png',
     images: [
-      '/src/assets/coming-soon.png',
+      '/images/coming-soon.png',
     ],
     liveUrl: '',
     githubUrl: '',
@@ -144,9 +144,9 @@ export const projects: Project[] = [
     shortDescription: 'AI-powered conversational interface similar to ChatGPT.',
     fullDescription: 'An intelligent chat application inspired by ChatGPT, built with React 19, TypeScript, and Vite. This application provides a modern conversational interface with AI-powered responses. Features include real-time message streaming, conversation history management, markdown support for formatted responses, code syntax highlighting, dark mode theme, responsive design for all devices, and conversation persistence. The app uses a clean, minimalist design with smooth animations and transitions, providing an intuitive user experience for natural language interactions. Built with modern React patterns including hooks and context API for state management.',
     technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'AI/ML APIs'],
-    mainImage: '/src/assets/coming-soon.png',
+    mainImage: '/images/coming-soon.png',
     images: [
-      '/src/assets/coming-soon.png',
+      '/images/coming-soon.png',
     ],
     liveUrl: '',
     githubUrl: '',
