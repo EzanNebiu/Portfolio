@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Star } from 'lucide-react';
+import { Star, ExternalLink } from 'lucide-react';
 import type { Project } from '@/types';
 import { Badge } from '@/components/common/Badge';
 import { Chip } from '@/components/common/Chip';
@@ -91,7 +91,19 @@ export function ProjectCard({ project, className, onClick }: ProjectCardProps) {
           )}
         </div>
 
-        <div className="pt-2">
+        <div className="pt-2 flex flex-wrap gap-3 items-center">
+          {project.liveUrl && (
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="inline-flex items-center gap-2 px-4 py-2 bg-blue hover:bg-blue-light text-white rounded-lg transition-colors text-sm font-medium"
+            >
+              <ExternalLink size={16} />
+              <span>Live Demo</span>
+            </a>
+          )}
           <span className="text-blue hover:text-blue-light text-sm font-medium transition-colors inline-flex items-center gap-1">
             View Details
             <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
