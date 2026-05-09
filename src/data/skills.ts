@@ -29,6 +29,16 @@ export const skillCategories: SkillCategory[] = [
     ],
   },
   {
+    label: 'UI / Design',
+    skills: [
+      { name: 'Figma' },
+      { name: 'UI Design' },
+      { name: 'Wireframing' },
+      { name: 'Responsive Design' },
+      { name: 'Prototyping' },
+    ],
+  },
+  {
     label: 'Tools',
     skills: [
       { name: 'Git' },
